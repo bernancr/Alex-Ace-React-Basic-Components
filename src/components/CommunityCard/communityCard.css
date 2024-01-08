@@ -1,0 +1,60 @@
+/* Estilo para los botones de navegación */
+.news-slider .nav-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para los botones de navegación activos */
+  .news-slider .nav-button.active {
+    background-color: #0056b3;
+  }
+  
+    #technologies {
+  }
+
+  #technologies a {
+    text-decoration: none;
+  }
+  
+    #technologies .card-text {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+    #technologies .card {
+    padding: 0;
+    border-radius: 8px;
+    overflow: auto;
+    box-shadow: -1px -1px 0px var(--light-color);
+  }
+
+    #technologies .card-body {
+    padding: 0;
+  }
+
+    #technologies .card-title {
+    position: relative;
+    top: 0px;
+    font-size: 16px;
+    text-align: left;
+    padding: 16px 16px 8px;
+  }
+
+    #technologies p.card-text {
+    position: absolute;
+    background-color: var(--tertiary-color);
+    top: 43px;
+    z-index: 99999;
+    left: 0;
+    padding: 8px 16px 32px;
+    opacity: 0.75;
+  }
+
+    #technologies .imgNews {
+    position: relative;
+    width: 80%;
+    height: auto;
+  }

@@ -1,0 +1,13 @@
+#resultsBlock .highBox{
+    padding: 0;
+  }
+  
+  #resultsBlock .cardResults {
+    background: none;
+    font-weight: bold;
+    font-size: 12px;
+    display: table;
+  }
+  #resultsBlock .cardResults span{
+    display: table-cell;
+  }

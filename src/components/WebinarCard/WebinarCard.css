@@ -1,0 +1,58 @@
+/* Estilo para los botones de navegación */
+.news-slider .nav-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Estilo para los botones de navegación activos */
+.news-slider .nav-button.active {
+  background-color: #0056b3;
+}
+
+  #webinarBlock {
+}
+
+#webinarBlock a {
+  text-decoration: none;
+}
+
+  #webinarBlock .card-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+  #webinarBlock .card {
+  padding: 0;
+  border-radius: 8px;
+  overflow: auto;
+  box-shadow: -1px -1px 0px var(--light-color);
+}
+
+  #webinarBlock .card-body {
+  padding: 0;
+}
+
+  #webinarBlock .card-title {
+  position: relative;
+  top: 0px;
+  font-size: 16px;
+  text-align: left;
+  padding: 16px 16px 8px;
+}
+
+  #webinarBlock p.card-text {
+  top: 43px;
+  z-index: 99999;
+  left: 0;
+  padding: 8px 16px 32px;
+  opacity: 0.75;
+}
+
+  #webinarBlock .imgNews {
+  position: relative;
+  width: 80%;
+  height: auto;
+}
